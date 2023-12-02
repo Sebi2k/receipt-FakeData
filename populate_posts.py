@@ -99,7 +99,7 @@ with engine.begin() as conn:
         ) tablespace pg_default;
     """))
 
-num_users = 1000
+num_users = 63000
 fake = Faker()
 
 # create fake users
