@@ -99,6 +99,7 @@ with engine.begin() as conn:
         ) tablespace pg_default;
     """))
 
+# use about 63,000 users for aprox 1,000,000 rows data total
 num_users = 63000
 fake = Faker()
 
